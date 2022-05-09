@@ -1,4 +1,4 @@
-public class Person {
+public class Human {
   private String name; // private = restricted access
 
   // Getter
@@ -14,7 +14,7 @@ public class Person {
 
 public class Main{
     public static void main(String[] args){
-        Person.myObj = new Person();
+        Human.myObj = new Human();
         myObj.name = "john";
         system.out.println(myObj.name);
     } 
