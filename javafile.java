@@ -15,7 +15,7 @@ public class Human {
 public class Main{
     public static void main(String[] args){
         Human.myObj = new Human();
-        myObj.name = "john";
+        myObj.name = "Cena";
         system.out.println(myObj.name);
     } 
 }
